@@ -194,8 +194,7 @@ span {
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
   margin-right: 93px;
-
-  padding: 27px 0px;
+  margin-bottom: 6px;
 }
 .direccion {
   font-size: 14px;
@@ -435,4 +434,43 @@ span {
 .icon-valores {
   width: 70px;
   height: 70px;
+}
+/*------Clientes----*/
+
+.icon-cli-container {
+  display: flex;
+  width: 170px;
+  height: 81px;
+  margin: 0px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  border: 1px solid var(--icon-color);
+  padding: 14.09px;
+}
+.icon-cli {
+  width: 106px;
+  height: 52px;
+}
+
+.icon-cli-container > .icon-cli {
+  fill: var(--icon-color);
+}
+
+.group-client {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  background-color: var(--basic-color);
+  padding-bottom: 151px;
+  padding-top: 140px;
+}
+.icon-cli:hover {
+  fill: var(--web-color);
+}
+.icon-cli-container:hover {
+  border: 1px solid var(--web-color);
 }

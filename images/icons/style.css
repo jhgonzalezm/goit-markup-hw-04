@@ -15,6 +15,30 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-cli-6 {
+  width: 2em;
+}
+
+.icon-cli-5 {
+  width: 2em;
+}
+
+.icon-cli-4 {
+  width: 2em;
+}
+
+.icon-cli-3 {
+  width: 2em;
+}
+
+.icon-cli-2 {
+  width: 2em;
+}
+
+.icon-cli-1 {
+  width: 2em;
+}
+
 .icon-gen-smartphone {
   width: 0.625em;
 }
