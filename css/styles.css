@@ -85,7 +85,7 @@
 }
 .hero-contact {
   display: flex;
-  column-gap: 50px;
+  column-gap: 16px;
   padding: 0px 0px;
   margin: 0px 0px;
 }
@@ -532,4 +532,14 @@ span {
 .text-company {
   padding-top: 72px;
   margin: 0px 0px 20px 70px;
+}
+.icon-contact-email {
+  margin: 0px;
+  width: 16px;
+  height: 12px;
+}
+.icon-contact-addres {
+  margin: 0px;
+  width: 10px;
+  height: 16px;
 }
