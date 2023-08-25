@@ -167,8 +167,8 @@ p {
 .main-introduction {
   justify-content: center;
   background-color: var(--main-introducion);
+  background-image: url(../images/head-image.jpg);
 }
-
 .footer {
   background-color: var(--main-introducion);
 }
@@ -227,7 +227,7 @@ span {
   flex-basis: calc((100%-20px) / 4);
   gap: 25px;
   padding-left: 0;
-  padding-top: 95px;
+  padding-top: 89px;
   /*padding-bottom: 94px;*/
   justify-content: center;
   margin: 0px 0pc 0px 0px;
@@ -420,4 +420,19 @@ span {
 }
 .rs-equipo li:hover {
   background-color: var(--icon-fill);
+}
+
+.val-img {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.icon-valores {
+  width: 70px;
+  height: 70px;
 }
