@@ -155,6 +155,16 @@ h3 {
   font-size: 16px;
   font-weight: 700;
 }
+h5 {
+  color: var(--basic-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
 h4 {
   line-height: 1.187;
   font-size: 16px;
@@ -375,7 +385,7 @@ span {
 }
 
 .direccion-footer {
-  display: block;
+  display: inline-block;
   padding-bottom: 60px;
 }
 .nav-web-footer-ul {
@@ -466,11 +476,60 @@ span {
   margin: 0px 0px 0px 0px;
   background-color: var(--basic-color);
   padding-bottom: 151px;
-  padding-top: 140px;
 }
 .icon-cli:hover {
   fill: var(--web-color);
 }
 .icon-cli-container:hover {
   border: 1px solid var(--web-color);
+}
+.text-clients {
+  text-align: center;
+  padding-top: 59px;
+  margin: 0px 0px 44px 0px;
+}
+
+.nav-footer-all {
+  display: flex;
+}
+
+.icon-cp {
+  fill: var(--basic-color);
+  width: 20px;
+  height: 20px;
+}
+
+.rs-company-group > .icon-cp {
+  fill: var(--basic-color);
+}
+.rs-company-group {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+  justify-content: center;
+  margin: 0px 0px 0px 70px;
+  padding-bottom: 0px;
+}
+.rs-company-group li {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.rs-company-group:hover > .icon-cp {
+  fill: var(--basic-color);
+}
+.rs-company-group li:hover {
+  background-color: var(--icon-fill);
+}
+.rs-company-item {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.text-company {
+  padding-top: 72px;
+  margin: 0px 0px 20px 70px;
 }
