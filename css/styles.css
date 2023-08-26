@@ -38,7 +38,7 @@
 
 .navigation-container {
   display: flex;
-
+  background-image: url(../images/hero-image.jpg);
   align-items: center;
 }
 
@@ -176,8 +176,10 @@ p {
 }
 .main-introduction {
   justify-content: center;
+  background: url(../images/head-image.jpg),
+    lightgray 0px -147.517px / 100% 170.667% no-repeat;
   background-color: var(--main-introducion);
-  background-image: url(../images/head-image.jpg);
+  /*background-image: url(../images/head-image.jpg);*/
 }
 .footer {
   background-color: var(--main-introducion);
@@ -534,12 +536,19 @@ span {
   margin: 0px 0px 20px 70px;
 }
 .icon-contact-email {
-  margin: 0px;
+  margin: 0px 10px 0px 0px;
   width: 16px;
   height: 12px;
 }
 .icon-contact-addres {
-  margin: 0px;
+  margin: 0px 10px 0px 0px;
   width: 10px;
   height: 16px;
+}
+.icon-contact-email:hover {
+  fill: var(--icon-fill);
+}
+.link-contact:hover {
+  fill: var(--icon-fill);
+  color: var(--icon-fill);
 }

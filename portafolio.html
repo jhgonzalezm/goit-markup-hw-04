@@ -31,14 +31,18 @@
           <li><a class="current" href="portafolio.html">Portafolio</a></li>
           <li><a href="#">Contactos</a></li>
         </ul>
-        <ul class="hero-contact navigation-container">
+        <ul class="hero-contact">
           <li>
-            <a class="hero-contact-email" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="link-contact" href="mailto:info@devstudio.com" > 
+              <svg class="icon-contact-email">
+                <use href = './images/icons/symbol-defs.svg#icon-gen-sobre'>
+              </svg>  info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:525555296000">+52 55 5529 6000</a>
+            <a class="link-contact" href="tel:525555296000">            
+              <svg class="icon-contact-addres">
+                <use href = './images/icons/symbol-defs.svg#icon-gen-smartphone'>
+              </svg>+52 55 5529 6000</a>
           </li>
         </ul>
       </nav>
@@ -108,26 +112,55 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="nav-web nav-web-footer" href="#">WebStudio</a>
-        <ul class="nav-web-footer-ul">
+        <ul class="nav-footer-all">
           <li>
-            <address class="direccion">
-              Ticomán 500, Ciudad de México, CDMX, México
-            </address>
+            <a class="nav-web nav-web-footer" href="#">WebStudio</a>
+            <ul class="nav-web-footer-ul">
+              <li>
+                <address class="direccion">
+                  Ticomán 500, Ciudad de México, CDMX, México
+                </address>
+              </li>
+              <li>
+                <a
+                  class="contact-hover direccion direccion-opacidad"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact-hover direccion direccion-opacidad direccion-footer"
+                  href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </ul>
           </li>
           <li>
-            <a
-              class="contact-hover direccion direccion-opacidad"
-              href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a
-              class="contact-hover direccion direccion-opacidad direccion-footer"
-              href="tel:+525555296000"
-              >+52 55 5529 6000</a
-            >
+            <h5 class="text-company">ENCUENTRENOS EN</h5>
+            <ul class="rs-company-group">
+                <li class="rs-company-item1" >
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-instagram'>
+                    </svg>
+                </li>
+                <li  class="rs-company-item1" >
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-twitter'>
+                    </svg>
+                </li>
+                <li  class="rs-company-ite1m" >
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-facebook'>
+                    </svg>
+                </li>
+                <li  class="rs-company-item1" >
+                  <svg class="icon-cp">
+                    <use href = './images/icons/symbol-defs.svg#icon-rs-linkedin'>
+                    </svg>
+                </li>
+              </ul>
           </li>
         </ul>
       </div>
