@@ -38,7 +38,8 @@
 
 .navigation-container {
   display: flex;
-  background-image: url(../images/hero-image.jpg);
+  background: url(../images/hero-image.jpg) no-repeat center,
+    linear-gradient(to bottom, rbga(47, 48, 58, 0.4), rbga(0, 0, 0, 0.4));
   align-items: center;
 }
 
@@ -482,7 +483,14 @@ span {
 .icon-cli:hover {
   fill: var(--web-color);
 }
+.icon-cli:focus {
+  fill: var(--web-color);
+}
+
 .icon-cli-container:hover {
+  border: 1px solid var(--web-color);
+}
+.icon-cli-container:focus {
   border: 1px solid var(--web-color);
 }
 .text-clients {
@@ -493,6 +501,7 @@ span {
 
 .nav-footer-all {
   display: flex;
+  margin: 0px;
 }
 
 .icon-cp {
@@ -528,6 +537,12 @@ span {
 .rs-company-group li:hover {
   background-color: var(--icon-fill);
 }
+.rs-company-group:focus > .icon-cp {
+  fill: var(--basic-color);
+}
+.rs-company-group li:focus {
+  background-color: var(--icon-fill);
+}
 .rs-company-item {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -545,10 +560,13 @@ span {
   width: 10px;
   height: 16px;
 }
-.icon-contact-email:hover {
-  fill: var(--icon-fill);
-}
+
 .link-contact:hover {
+  fill: var(--icon-fill);
+  color: var(--icon-fill);
+}
+
+.link-contact:focus {
   fill: var(--icon-fill);
   color: var(--icon-fill);
 }
