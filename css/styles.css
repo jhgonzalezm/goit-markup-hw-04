@@ -70,6 +70,7 @@
 .hero-navigation li a:focus {
   color: var(--web-color);
   font-weight: 500;
+  outline: none;
 }
 .hero-contact li a {
   color: var(--span-color);
@@ -81,6 +82,7 @@
 .hero-contact-email:focus {
   font-weight: 500;
   color: var(--web-color);
+  outline: none;
 }
 .hero-contact {
   display: flex;
@@ -123,6 +125,7 @@ button:hover {
 button:focus {
   background-color: var(--button-bgc);
   color: var(--basic-color);
+  outline: none;
 }
 #line {
   height: 1px;
@@ -436,9 +439,11 @@ span {
 /* Ok */
 .rs-equipo-item:focus > .icon {
   fill: var(--basic-color);
+  outline: none;
 }
 .rs-equipo-item:focus {
   background-color: var(--icon-fill);
+  outline: none;
 }
 
 .val-img {
@@ -498,9 +503,11 @@ span {
 
 .icon-cli-container:focus {
   border: 1px solid var(--web-color);
+  outline: none;
 }
 .icon-cli-container:focus > .icon-cli {
   fill: var(--web-color);
+  outline: none;
 }
 
 /* 
@@ -557,6 +564,7 @@ span {
 }
 .rs-company-group a:focus {
   background-color: var(--icon-fill);
+  outline: none;
 }
 
 /* .rs-company-a:focus {
@@ -596,4 +604,5 @@ span {
 .link-contact:focus {
   fill: var(--icon-fill);
   color: var(--icon-fill);
+  outline: none;
 }
