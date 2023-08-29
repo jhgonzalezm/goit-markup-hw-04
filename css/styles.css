@@ -606,3 +606,10 @@ span {
   color: var(--icon-fill);
   outline: none;
 }
+
+.nav-footer-all a:focus {
+  outline: none;
+}
+.nav-web:focus {
+  outline: none;
+}
